@@ -1,0 +1,4 @@
+mport java.util.*;
+
+public class KotlanInterpreter {
+    private final Map<String, Integer> variables = new HashMap<>();
