@@ -1,0 +1,10 @@
+fun isPalindrome(N: Int): Boolean {
+    val original = N
+    var reversed = 0
+    var num = N
+    while (num != 0) {
+        reversed = reversed * 10 + num % 10
+        num /= 10
+    }
+    return original == reversed
+}
